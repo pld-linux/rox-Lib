@@ -7,7 +7,7 @@ Version:	0.1.4
 Release:	2
 License:	GPL
 Group:		Libraries/Python
-Source0:	ftp://ftp.sourceforge.net/pub/sourceforge/rox/%{_name}-%{version}.tgz
+Source0:	http://dl.sourceforge.net/rox/%{_name}-%{version}.tgz
 URL:		http://rox.sourceforge.net/rox_lib.php3
 BuildRequires:	rpm-pythonprov
 Requires:	python-pygtk
