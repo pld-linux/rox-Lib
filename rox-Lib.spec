@@ -9,7 +9,6 @@ Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/rox/%{_name}-%{version}.tgz
 # Source0-md5:	c8f559403a829a51a3b69ca13b884df6
 URL:		http://rox.sourceforge.net/rox_lib.php3
-BuildRequires:	rpm-pythonprov
 Requires:	python-pygtk-gtk
 %pyrequires_eq  python
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
