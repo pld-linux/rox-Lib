@@ -4,10 +4,10 @@ Summary:	A library for ROX applications
 Summary(pl):	Biblioteka dla aplikacji ROXa
 Name:		rox-Lib
 Version:	0.1.4
-Release:	1
+Release:	2
 License:	GPL
 Group:		Libraries/Python
-Source0:	http://belnet.dl.sourceforge.net/sourceforge/rox/%{_name}-%{version}.tgz
+Source0:	ftp://ftp.sourceforge.net/pub/sourceforge/rox/%{_name}-%{version}.tgz
 URL:		http://rox.sourceforge.net/rox_lib.php3
 BuildRequires:	rpm-pythonprov
 Requires:	python-pygtk
@@ -32,7 +32,7 @@ install -d $RPM_BUILD_ROOT%{_libdir}/%{_name}/{bin,Help,python/rox}
 install App* $RPM_BUILD_ROOT%{_libdir}/%{_name}
 install bin/* $RPM_BUILD_ROOT%{_libdir}/%{_name}/bin
 install python/rox/* $RPM_BUILD_ROOT%{_libdir}/%{_name}/python/rox
-install Help/{Options,findrox.py,python} $RPM_BUILD_ROOT%{_libdir}/%{_name}/Help
+install Help/README $RPM_BUILD_ROOT%{_libdir}/%{_name}/Help
 
 %py_comp $RPM_BUILD_ROOT%{_libdir}/%{_name}/python/rox
 %py_ocomp $RPM_BUILD_ROOT%{_libdir}/%{_name}/python/rox
@@ -42,7 +42,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Help/{Changes,README}
+%doc Help/{Changes,Options,findrox.py,python}
 %attr(755,root,root) %{_libdir}/%{_name}/AppRun
 %attr(755,root,root) %{_libdir}/%{_name}/bin
 %{_libdir}/%{_name}/AppI*
