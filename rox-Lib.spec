@@ -1,4 +1,3 @@
-%include  /usr/lib/rpm/macros.python
 %define _name ROX-Lib
 Summary:	A library for ROX applications
 Summary(pl):	Biblioteka dla aplikacji ROXa
