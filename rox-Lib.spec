@@ -19,7 +19,7 @@ ROX-Lib contains shared code which can be used by other ROX
 applications.
 
 %description -l pl
-ROX-Lib zawiera dzielone buiblioteki, które mog± byæ u¿ywane przez
+ROX-Lib zawiera dzielone biblioteki, które mog± byæ u¿ywane przez
 inne aplikacje ROXa.
 
 %prep
