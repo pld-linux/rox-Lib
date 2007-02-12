@@ -1,6 +1,6 @@
 %define _name ROX-Lib
 Summary:	A library for ROX applications
-Summary(pl):	Biblioteka dla aplikacji ROXa
+Summary(pl.UTF-8):   Biblioteka dla aplikacji ROXa
 Name:		rox-Lib
 Version:	0.1.4
 Release:	5
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 ROX-Lib contains shared code which can be used by other ROX
 applications.
 
-%description -l pl
-ROX-Lib zawiera dzielone biblioteki, które mog± byæ u¿ywane przez
+%description -l pl.UTF-8
+ROX-Lib zawiera dzielone biblioteki, ktÃ³re mogÄ… byÄ‡ uÅ¼ywane przez
 inne aplikacje ROXa.
 
 %prep
