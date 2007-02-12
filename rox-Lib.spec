@@ -1,6 +1,6 @@
 %define _name ROX-Lib
 Summary:	A library for ROX applications
-Summary(pl.UTF-8):   Biblioteka dla aplikacji ROXa
+Summary(pl.UTF-8):	Biblioteka dla aplikacji ROXa
 Name:		rox-Lib
 Version:	0.1.4
 Release:	5
